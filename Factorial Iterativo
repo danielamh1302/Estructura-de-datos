@@ -2,6 +2,22 @@
 #include <stdlib.h>
 
 int n=0
+int a=1
 
-int fac(int n){
-  if(n==1 
+int facIt(int n, int a){
+  if(n==1 || n==0){
+    return 1;}
+   else{
+    n=n* facIt((n-1), a*n);
+      printf("Num: %i", n);
+    return n;}
+ }
+ 
+ int main(){
+  printf("Ingresa un numero:");
+  scanf("%i", &n);
+  
+  printf("Resultados:", a);
+  
+  return (0);
+ }
