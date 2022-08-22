@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int n=0;
+int FacRec(int n){
+  (if n==1 || n==0){
+  return 1;
+  }else{
+    n = n * FacRec(n-1);
+    printf("Num: %i\n", n);
+  return n;
+  }
+} 
+int main(){
+  printf("Ingrese un numero: \n");
+  scanf("%i", &n);
+  n= FacRec(n);
+  printf("Resultado: %i\n", n);
+  return(0);
+}  
