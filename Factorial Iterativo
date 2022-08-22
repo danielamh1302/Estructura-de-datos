@@ -16,6 +16,7 @@ int facIt(int n, int a){
  int main(){
   printf("Ingresa un numero:");
   scanf("%i", &n);
+  facIt(n,a);
   
   printf("Resultados: %i", a);
   
