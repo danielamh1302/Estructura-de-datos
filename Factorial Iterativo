@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int n=0
-int a=1
+int n=0;
+int a=1;
 
 int facIt(int n, int a){
   if(n==1 || n==0){
