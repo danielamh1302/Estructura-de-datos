@@ -3,7 +3,7 @@
 
 int n=0;
 int FacRec(int n){
-  (if n==1 || n==0){
+  if( n==1 || n==0){
   return 1;
   }else{
     n = n * FacRec(n-1);
